@@ -1,4 +1,7 @@
 package br.com.fiap.jogodamemoria
 
-class GameFragment {
+import androidx.fragment.app.Fragment
+
+class GameFragment : Fragment() {
+
 }
