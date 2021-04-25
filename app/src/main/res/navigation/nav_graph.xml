@@ -24,23 +24,16 @@
         <action
             android:id="@+id/action_startFragment_to_gameFragment"
             app:destination="@id/gameFragment" />
-        <action
-            android:id="@+id/action_startFragment_to_rankingFragment"
-            app:destination="@id/rankingFragment" />
     </fragment>
     <fragment
         android:id="@+id/gameFragment"
         android:name="br.com.fiap.jogodamemoria.GameFragment"
         android:label="fragment_game"
         tools:layout="@layout/fragment_game" >
-        <argument
-            android:name="player_name"
-            app:argType="string"
-            android:defaultValue="Player" />
+        <action
+            android:id="@+id/action_gameFragment_to_startFragment"
+            app:destination="@id/startFragment"
+            app:popUpTo="@id/gameFragment"
+            app:popUpToInclusive="false" />
     </fragment>
-    <fragment
-        android:id="@+id/rankingFragment"
-        android:name="br.com.fiap.jogodamemoria.RankingFragment"
-        android:label="fragment_ranking"
-        tools:layout="@layout/fragment_ranking" />
 </navigation>

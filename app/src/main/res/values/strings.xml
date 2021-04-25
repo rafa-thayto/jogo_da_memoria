@@ -5,5 +5,7 @@
     <string name="play_button">Play</string>
     <string name="score_list_tittle">BEST SCORE</string>
     <string name="image_splash_description">logo_game</string>
+    <string name="timer_game">Timer:</string>
+    <string name="initial_ranking">No matches played yet:</string>
 
 </resources>
