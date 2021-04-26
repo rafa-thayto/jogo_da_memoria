@@ -1,17 +1,11 @@
 <resources>
-    <string name="app_name">Jogo Da Memoria</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="app_version">Version: 1.0.0</string>
-    <string name="pedra">Pedra</string>
-    <string name="tesoura">Tesoura</string>
-    <string name="papel">Papel</string>
-    <string name="score_divider">X</string>
-    <string name="player_score">Player</string>
-    <string name="cpu_score">CPU</string>
-    <string name="player_choose_placeholder">...</string>
-    <string name="player_name_label">Player name:</string>
-    <string name="play_button">Jogar</string>
-    <string name="ranking_btn_label">Top 10</string>
-    <string name="top_10_title">TOP 10</string>
+    <string name="app_name">Memory Game</string>
+    <string name="play_button">Play</string>
+    <string name="score_list_tittle">BEST SCORE</string>
+    <string name="image_splash_description">logo_game</string>
+    <string name="timer_game">Timer:</string>
+    <string name="initial_ranking">No matches played yet:</string>
+
 </resources>
