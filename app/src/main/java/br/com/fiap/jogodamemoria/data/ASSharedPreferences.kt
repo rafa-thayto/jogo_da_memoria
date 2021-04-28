@@ -16,13 +16,13 @@ class ASSharedPreferences(private val context: Context) {
         sharedPref = context.getSharedPreferences(name, Context.MODE_PRIVATE)
     }
 
-    fun savePlayer(name: String) {
+    fun saveScore(name: String) {
         val editor = sharedPref.edit()
         editor.putString(playerName, name)
         editor.apply()
     }
 
-    fun getPlayer(): String? {
+    fun getScore(): String? {
         return sharedPref.getString(playerName, "")
     }
 

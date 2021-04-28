@@ -1,5 +1,5 @@
 package br.com.fiap.jogodamemoria
-import android.content.Context
+
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -16,10 +16,6 @@ class StartFragment : Fragment() {
     private lateinit var bindings: FragmentStartBinding
     private lateinit var bestRanking: String
 
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-    }
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -34,7 +30,6 @@ class StartFragment : Fragment() {
 
         super.onViewCreated(view, savedInstanceState)
         bindings.playBtn.setOnClickListener {
-
             view.findNavController().navigate(R.id.action_startFragment_to_gameFragment)
         }
 

@@ -22,10 +22,10 @@ class MainActivity : AppCompatActivity() {
         builder.setTitle("Confirm Action")
         builder.setMessage("Do you really want to quit the match? ")
         builder.setPositiveButton(
-            "OK"
+            "QUIT"
         ) { dialog, which -> super.onBackPressed() }
         builder.setNegativeButton(
-            "NO"
+            "CANCEL"
         ) { dialog, which -> null }
         builder.show()
     }
